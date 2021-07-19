@@ -1,0 +1,95 @@
+.request-tab{
+    background-color: rgb(184, 226, 228);
+    border-radius: 5px;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.request-tab>div{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.request-tab>div>div>button{
+    border:none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.decision-btn{
+    height: 20px;
+}
+
+.request-div-main{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-height: 70vh;
+}
+
+
+.request-div-header{
+    font-size: large;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 30px 0px;
+}
+
+
+.tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tab-contain{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width:1100px){
+    .request-tab{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:750px){
+    
+
+    .request-div-header{
+        font-size: small;
+    }
+
+    .request-div-main{
+        padding: 0px;
+    }
+
+    .request-tab>div{
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+
+@media (max-width:450px){
+    
+.request-tab{
+    grid-template-columns: 1fr;
+}
+
+}

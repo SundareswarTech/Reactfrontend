@@ -1,0 +1,92 @@
+.documentation-container{
+    margin: 20px;
+}
+
+.documentation-contain{
+    margin: 50px;
+    background-color: white;
+}
+
+.documentation-container-header{
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: cadetblue;
+    color: white;
+}
+
+
+.documentation-container-subheader{
+    margin: 20px 0px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.documentation-contain>div:nth-child(1){
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.documentation-contain>div:nth-child(2){
+    margin: 20px 0px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.documentation-contain>div>img{
+    height:30vh;
+}
+
+.documentation-contain>div{
+    padding: 10px;
+}
+
+.excell-img{
+    width:800px;
+}
+
+@media (max-width:900px){
+    .excell-img{
+        width:500px;
+        height: 100px;
+    }
+}
+
+@media (max-width:600px){
+    .documentation-contain{
+        box-shadow: none;
+        margin: 20px 2px;
+    }
+}
+
+@media (max-width:500px){
+    .documentation-container-header{
+        font-size:medium;
+    }
+    
+    
+    .documentation-container-subheader{
+        font-size: medium;
+    }
+    
+    .documentation-contain>div:nth-child(1){
+        font-size: small;
+    }
+    
+    .documentation-contain>div:nth-child(2){
+        font-size: small;
+    }
+    
+    .documentation-contain>div>img{
+        height:20vh;
+    }
+    
+    .documentation-contain>div{
+        padding: 10px;
+    }
+    
+    .excell-img{
+        width:300px;
+    }
+}

@@ -1,0 +1,18 @@
+
+
+.div-container-canvas{
+    height: 80vh;
+    width: 80vw;
+}
+
+
+.center-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.center-container>div{
+    padding: 20px 0px;
+}

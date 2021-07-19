@@ -1,0 +1,13 @@
+.success{
+    color:green;
+    font-weight: 600;
+    background-color: rgb(148, 216, 148, 0.2);
+    margin: 2px;
+}
+
+.failure{
+    color:red;
+    font-weight: 600;
+    background-color: rgb(236, 150, 150,0.2);
+    margin: 2px;
+}

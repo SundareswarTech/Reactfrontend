@@ -1,0 +1,11 @@
+.dashboard-menu::before{    
+    background-image: url('../../assets/bg1.png');
+    content: "";
+    background-size: cover;
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.07;
+}

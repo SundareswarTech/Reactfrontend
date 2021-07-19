@@ -1,0 +1,30 @@
+.table-demo{
+    width: 80vw;
+}
+
+
+.table-demo>thead{
+    border:none;
+    font-weight: 600;
+    background-color: rgb(91, 189, 202);
+    color:white;
+}
+
+.table-demo>tbody{
+    background-color: lightyellow;
+}
+
+
+.table-demo>tbody>tr:nth-child(even){
+    background-color: rgb(241, 238, 238);
+}
+
+.table-demo>tbody>tr:nth-child(odd){
+    background-color: white;
+}
+
+.table-demo>tbody>tr>td{
+    border : solid 1px lightgrey;
+}
+
+

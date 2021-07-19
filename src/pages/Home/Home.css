@@ -1,0 +1,162 @@
+.container-login{
+    margin: 50px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form>div{
+    margin: 20px;
+}
+
+.login-header{
+    font-size: x-large;
+    padding: 20px 0px;
+}
+
+.login-subheader{
+    background-color: #23b4b9;
+    color: white;
+    padding: 30px;
+    font-size: large;
+}
+
+.login-button{
+    padding: 10px 50px;
+    background-color: #23b4b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.signup-button{
+    
+    padding: 10px 50px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.login-image{
+    margin: 50px;
+    height: 500px;
+    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.login-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.home-greetings{
+    font-size: xx-large;
+    color:white;
+    background-color: #6fd8db;
+    padding: 10px;
+    margin: 2px;
+    border: rgb(33, 166, 184) solid 2px;
+}
+
+
+.home-page-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: large;
+}
+
+.home-page-buttons>div:nth-child(1){
+    border-right: solid 1px lightgray;
+}
+
+.login-div>div>div>div{
+    background-color: white;
+}
+
+.home-page-buttons>div{
+    padding: 15px 0px;
+}
+
+.home-page-buttons>div>div{
+    padding: 15px 0px;
+}
+
+.dashboard-link-home{
+    background-color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.dashboard-link-home:hover{
+    background-color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+
+
+@media (max-width:1200px) {
+    .login-div{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .login-div>div{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1200px) {
+    .login-div{
+        grid-template-columns: 1fr ;
+    }
+
+    .login-div>div{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-img{
+        display: none;
+    }
+}
+
+
+@media (max-width:600px) {
+    .home-page-buttons{
+        grid-template-columns: 1fr;
+    }
+
+    .home-page-buttons>div:nth-child(1){
+        border-right: none;
+    }
+
+    .home-page-buttons>div{
+        border-bottom: solid 1px rgb(233, 232, 232);
+        border-top:  solid 1px rgb(240, 237, 237);
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width:500px) {
+    .container-login{
+        margin: 5px;
+    }
+
+    .login-subheader{
+        padding: 10px;
+        font-size: medium;
+    }
+}

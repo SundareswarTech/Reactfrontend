@@ -1,0 +1,113 @@
+.dashboard-view{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    opacity: 0.8;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.dashboard-view-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashboard-view>div:nth-child(3){
+    font-size: small;
+}
+
+.dashboard-view>div:nth-child(4){
+    font-size: small;
+}
+
+.dashboard-view>div>div:nth-child(1){
+    background-color: rgb(162, 229, 231);
+    color: white;
+    padding: 10px;
+}
+
+
+.db-name-value{
+    font-size: x-large;
+    color: black;
+    font-weight: 600;
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: lightgray solid 2px;
+}
+
+textarea{
+        padding: 10px;
+        border-radius: 5px;
+        border: lightgray solid 2px;
+}
+
+select{
+    padding: 10px;
+        border-radius: 5px;
+        border: lightgray solid 2px;
+}
+
+select>option{
+    padding: 10px;
+        border-radius: 5px;
+        border: lightgray solid 2px;
+}
+
+.dashIcon{
+    height: 150px;
+}
+
+.toAdmin:hover{
+    background-color: rgb(198, 201, 218);
+    color:black;
+    border: solid black 2px;
+    font-weight: 600;
+}
+
+@media (max-width:700px) {
+    .dashIcon{
+        height: 100px;
+    }
+
+    .db-name-value{
+        font-size: large;
+    }
+}
+
+
+@media (max-width:400px) {
+    .dashIcon{
+        display: none;
+    }
+
+    .dashboard-view{
+        grid-template-columns: 1fr;
+        padding: 25px;
+        margin: 5px;
+    }
+    .db-name-value{
+        font-size: medium;
+    }
+
+}
+
+
+@media (max-width:300px) {
+    input{
+        padding: 2px;
+        border-radius: 5px;
+        border: lightgray solid 2px;
+    }
+}

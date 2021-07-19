@@ -1,0 +1,11 @@
+.add{
+    height: 100px;
+}
+
+.addSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted 1px lightgray;
+    height: 100%;
+}

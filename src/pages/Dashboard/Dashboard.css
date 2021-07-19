@@ -1,0 +1,64 @@
+
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard>div{
+    padding: 40px;
+    border: rgb(247, 243, 243) solid 1px;
+    margin: 20px;
+    
+    background-color: #464b4b;
+}
+
+
+.trash{
+    height:30px;
+}
+
+.edit{
+    height:30px;
+}
+
+
+.align-edit-icon{
+    align-items: right;
+    margin: 10px;
+}
+
+
+.align-edit-icon>button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 239, 239);
+    border: none;
+}
+
+.toAdmin{
+    margin: 20px;
+    padding: 20px 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.access-div{
+    margin: 20px;
+    border: solid 1px lightgray
+}
+
+.add-chart{
+    height: 500px;
+}
+
+
+.dashboard-titles{
+    background-color: white;
+    padding: 5px 0px;
+}

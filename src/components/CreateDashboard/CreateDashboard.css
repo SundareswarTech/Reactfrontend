@@ -1,0 +1,169 @@
+
+
+.db-create{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.db-create-info{
+    margin: 20px 80px;
+    padding: 20px 40px;
+    background-color: rgba(245, 244, 244, 0.8);
+    box-shadow: 10px 10px 10px lightgray;
+    position: relative;
+}
+
+.info-logo{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 30px;
+}
+
+.db-create-info-data{
+    padding: 10px 50px;
+    font-weight: 600;
+}
+
+.db-create-info>div>img{
+    height: 200px;
+}
+
+
+.db-create-container{
+    width: 40vw;
+    padding: 10px;
+    margin: 40px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+}
+
+.db-label {
+    display: inline-block;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .db-create-container-header{
+      background-color: rgb(12, 204, 124);
+      color: white;
+      padding: 20px;
+      font-weight: 600;
+      font-size: large;
+  }
+
+
+  .db-create-container-form{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  .db-create-container-form>div{
+      margin: 20px;
+  }
+
+  .db-btn{
+      background-color: #223c3d;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 20px 40px;
+  }
+
+  .db-btn:hover{
+    background-color: rgb(12, 204, 124);
+    color: white;
+    font-weight: 600;
+  }
+
+
+  .list-header{
+    background-color: #23b4b9;
+    color: white;
+    padding: 30px 20px;
+    margin: 100px 0px 0px 0px;
+    position: relative;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+.input-over{
+    z-index: 99;
+    position: relative;
+
+    padding: 10px;
+    background-color: white;
+}
+
+@media(max-width:1000px) {
+    .db-create-info-data{
+        padding: 10px 50px;
+        font-weight: 600;
+        font-size: small;
+    }
+
+    .db-create-info>div>img{
+        height: 150px;
+    }
+}
+
+
+
+@media(max-width:900px) {
+    .db-create{
+        grid-template-columns: 1fr;
+    }
+
+    .db-create-container{
+        width: 100%;
+    }
+
+    .db-create-info>div>img{
+        height: 100px;
+    }
+
+    .db-create-info{
+        width: 90%;
+        margin: 10px;
+        padding: 5px;
+    }
+    }
+  
+    
+  @media(max-width:550px) {
+
+    .db-create-container{
+        width: 100%;
+    }
+
+    .db-create-info>div>img{
+        height: 50px;
+    }
+
+    .db-create-container-header{
+        font-size: medium;
+    }
+    .db-create-container-form>div{
+        margin: 5px;
+    }
+    }
+  
+    @media(max-width:350px) {
+        .db-create-container-header{
+            font-size: small;
+        }
+      }
+  
+      @media(max-width:300px) {
+        }
